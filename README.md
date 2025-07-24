@@ -6,4 +6,4 @@ Agile for beginners Great learning course completion proof:
 
 Git Training course completion certificate from Simplilearn :
 
-![GitTrainingSimplilearnSriramN](GiT/Certificate/GitTrainingSimplilearnSriramN.pdf "Git Training Certificate from Simplilearn")
+![GitTrainingSimplilearnSriramN](GiT/Certificate/GitTrainingSimplilearnSriramN.png "Git Training Certificate from Simplilearn")
