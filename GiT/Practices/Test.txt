@@ -7,3 +7,19 @@ Now i am going to add some line and push to it remote with the tag v.1.0.
 One popular line from "Atomic Habits" is "Every action you take is a vote for the type of person you wish to become." 
 This quote emphasizes how daily habits, even seemingly small ones, contribute to shaping one's identity and future self. 
 It highlights the idea that consistent actions, repeated over time, have a significant impact on personal growth and development. 
+
+To get to know about revert or reset a commit i am now going to add some more line and name it as v.1.1. Then i push it to remote and 
+using git revert/reset i would go back to previous verion i.e, v.1.0.
+
+Here are some other notable quotes from the book:
+"Habits are the compound interest of self-improvement."
+This quote illustrates how small, consistent improvements in habits can lead to substantial results over time. 
+"Success is the product of daily habits, not once-in-a-lifetime transformations."
+This emphasizes the importance of focusing on the process and building good habits rather than relying on sudden, dramatic changes. 
+"You do not rise to the level of your goals. You fall to the level of your systems."
+This quote highlights the significance of creating effective systems and processes for habit formation rather than solely relying on goal setting. 
+"Make it obvious, make it attractive, make it easy, make it satisfying."
+This is a summary of the four laws of behavior change, providing a practical framework for building good habits. 
+"Never miss twice."
+This emphasizes the importance of getting back on track quickly after a slip-up, rather than letting a single mistake derail progress. 
+
