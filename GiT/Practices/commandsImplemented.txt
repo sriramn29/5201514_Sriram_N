@@ -1,0 +1,39 @@
+git clone
+
+git init
+
+git add .
+
+git status
+
+git commit -m "commit message"
+
+git stash
+
+git log
+
+git log --oneline
+
+git push origin main
+
+git branch
+
+git branch practice
+
+git checkout practice
+
+git push -u origin practice
+
+git tag v.1.0
+
+git tag -d v.1.0
+
+git diff origin
+
+git diff <tagname1> <tagname2>
+
+git diff <commitId>
+
+git merge practice (from main repo to merge)
+
+git remote -v
