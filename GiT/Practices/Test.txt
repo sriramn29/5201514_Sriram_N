@@ -2,7 +2,7 @@ Hello I am Going to do the practice on Git commands....
 
 Added more line to know how the set upstream works for pushing a new branch named "practice" from local to remote.
 
-Now i am going to add some line and push to it remote with the tag v.1.1.
+Now i am going to add some line and push to it remote with the tag v.1.0.
 
 One popular line from "Atomic Habits" is "Every action you take is a vote for the type of person you wish to become." 
 This quote emphasizes how daily habits, even seemingly small ones, contribute to shaping one's identity and future self. 
