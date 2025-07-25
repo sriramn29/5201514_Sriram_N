@@ -1,1 +1,3 @@
 Hello I am Going to do the practice on Git commands....
+
+Added more line to know how the set upstream works for pushing a new branch named "practice" from local to remote.
