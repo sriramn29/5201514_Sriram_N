@@ -23,3 +23,5 @@ This is a summary of the four laws of behavior change, providing a practical fra
 "Never miss twice."
 This emphasizes the importance of getting back on track quickly after a slip-up, rather than letting a single mistake derail progress. 
 
+Now i am going to revert back to version v.1.0 by using git reset --soft command. And Now i am going to use tag name to revert since i have watched the
+revert using HEAD~1 during the class.
