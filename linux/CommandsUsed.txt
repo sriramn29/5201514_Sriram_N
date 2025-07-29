@@ -1,0 +1,163 @@
+    1  version
+    2  pwd
+    3  ls
+    4  df -h # human-readable format
+    5  uname
+    6  clear
+    7  cal December 2003
+    8  whereis printf
+    9  cal January 2023
+   10  Cal January 2023
+   11  fcal January 2023
+   12  cxl January 2023
+   13  date
+   14  bc
+   15  sudo apt update
+   16  sudo apt upgrade
+   17  history
+   18  clear
+   19  echo $SHELL
+   20  printenv SHELL
+   21  whoami
+   22  whatis echo
+   23  whatis printenv
+   24  whatis whoami
+   25  whatis cat
+   26  whereis cat
+   27  whereis gcc
+   28  info cat
+   29  sudo apt install gcc
+   30  sudo apt install build-essential
+   31  date
+   32  date "+%D"
+   33  date "+%D %T"
+   34  date "+%Y-%m-%d"
+   35  date "+%Y/%m/%d"
+   36  date "+%A %B %d %Y %T"
+   37  date --date "tomorrow"
+   38  date --date "2 years ago"
+   39  man date
+   40  cal
+   41  sudo apt install ncal
+   42  cal
+   43  cal 7 2025
+   44  cal 5 2025
+   45  cal 2025
+   46  cal -3 2025
+   47  cal -3
+   48  ps
+   49  exit
+   50  history
+   51  bc <<< "14/3"
+   52  bc <<< "scale=2; 14/3"
+   53  bc <<< "15>7"
+   54  bc <<< "2^15"
+   55  uname
+   56  uname -o
+   57  uname -i
+   58  unmae -n
+   59  uname -n
+   60  uname -v
+   61  uname -s
+   62  uname -m
+   63  uname -r
+   64  uname -a
+   65  echo "Say Hello to Linux"
+   66  echo -e "Say Hello to Linux \t Haiii"
+   67  echo -n "Say Hello to Linux"
+   68  echo "Say Hello to \"Linux\""
+   69  echo `date`
+   70  echo "Say
+   71  hello
+   72  to
+   73  linux
+   74  printf "Linux class"
+   75  printf "Linux class\n"
+   76  printf "My shell is %s\n" $sHELL
+   77  printf "My shell is %s\n" $SHELL
+   78  seq 10 20
+   79  seq 10 2 20
+   80  seq 20 -1 1
+   81  seq 20 -2 0
+   82  seq -s " " 10
+   83  seq -s " " 5 10
+   84  seq -s " " 5 2 10
+   85  rev <<< linux
+   86  echo $?
+   87  false
+   88  ls
+   89  nano newfile
+   90  cd new
+   91  ls
+   92  mkdir new
+   93  cd new
+   94  mkdir new1 new2
+   95  ls
+   96  cd
+   97  cd-
+   98  cd -
+   99  mkdir -p d1/d2
+  100  ls
+  101  cd d1
+  102  la
+  103  ls -l
+  104  cd ..
+  105  cd
+  106  ls -l
+  107  ls -a
+  108  ls -R
+  109  nano demo
+  110  wc demo
+  111  touch newfile.txt
+  112  nano newfile.txt
+  113  cat newfile.txt
+  114  cat newfile.txt > output.txt
+  115  cat output.txt
+  116  cat -n demo
+  117  ls
+  118  mk training
+  119  mkdir training
+  120  cp newfile output.txt training
+  121  cd training
+  122  ls
+  123  cd
+  124  ls
+  125  ls -R
+  126  cp -r new training
+  127  ls
+  128  cd training
+  129  ls
+  130  cd new
+  131  ls
+  132  cd
+  133  mv output.txt out
+  134  ls
+  135  cd training
+  136  l
+  137  ls
+  138  vi sum,c
+  139  vi sum.c
+  140  sudo apt install gcc
+  141  sudo apt install g++
+  142  date;uname -r;whoami
+  143  date;unme -r;whoami
+  144  date && whoami
+  145  dat && whoami
+  146  info date
+  147  history
+  148  history 10
+  149  man cat
+  150  pwd
+  151  wc this is day 2 of training
+  152  wc
+  153  ls
+  154  cat output.txt >> sum,c
+  155  cat sum,c
+  156  rm sum.c
+  157  rmdir new
+  158  cd new
+  159  ls
+  160  cd
+  161  rm -r new
+  162  ls
+  163  history
