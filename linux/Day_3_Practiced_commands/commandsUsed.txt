@@ -1,0 +1,127 @@
+164  ls
+  165  mkdir stepin
+  166  cd stepin/
+  167  vi sum.c
+  168  gcc sum.c && ./a.out
+  169  vi filecmd
+  170  cat filecmd
+  171  cat sum.c
+  172  gcc sum.c
+  173  ./a.out
+  174  gcc sum.c && ./a.out
+  175  clear
+  176  ls
+  177  more filecmd
+  178  nano filecmd
+  179  more filecmd
+  180  less filecmd
+  181  head filecmd
+  182  head -n  filecmd
+  183  head -n 5filecmd
+  184  head -n 5 filecmd
+  185  tail filecmd
+  186  tail +5 filecmd
+  187  nano sample.txt
+  188  clear
+  189  cat sample.txt
+  190  cut -c 1-3 sample.txt
+  191  cut -c 1-10 sample.txt
+  192  cut -c 4-10 sample.txt
+  193  cat sample.txt
+  194  cut -d ':' -f2 sample.txt
+  195  cut -d ':' -f2,3 sample.txt
+  196  cd stepin/
+  197  nano f1
+  198  nano f2
+  199  cat f1
+  200  cat f2
+  201  paste f1 f2
+  202  paste -d ':' f1 f2
+  203  paste -s f1 f2
+  204  clear
+  205  cat sample.txt
+  206  sort sample.txt
+  207  sort sample.txt -r
+  208  sort -t ':' -k2 sample.txt
+  209  sort -t ':' -k3 sample.txt
+  210  sort -t ':' -k4 sample.txt
+  211  sort -t ':' -k3 sample.txt -r
+  212  clear
+  213  cat sample.txt
+  214  tr ':' '|' < sample.txt
+  215  cat sample.txt
+  216  ls
+  217  tr ':' '|' < sample.txt > s1.txt
+  218  ls
+  219  cat s1.txt
+  220  tr ':0' '|$' < sample.txt
+  221  clear
+  222  cat sample.txt
+  223  tr -s '0' < sample.txt
+  224  cat sample.txt
+  225  tr -d '0' < sample.txt
+  226  cat sample.txt
+  227  clear
+  228  nano example.txt
+  229  cat example.txt
+  230  uniq example.txt
+  231  clear
+  232  ls
+  233  cat sample.txt
+  234  cat s1.txt
+  235  cmp sample.txt s1.txt
+  236  diff sample.txt s1.txt
+  237  clear
+  238  ls
+  239  nano test.c
+  240  cat test.c
+  241  grep main test.c
+  242  grep ^main test.c
+  243  grep ^int test.c
+  244  grep \; test.c
+  245  nano test.c
+  246  cat test.c
+  247  grep ^int test.c
+  248  clear
+  249  nano sed_test
+  250  cat sed_test
+  251  sed 's/Hello/Hi/' sed_test
+  252  cat sed_test
+  253  sed -i 's/Hello/Hi/' sed_test
+  254  cat sed_test
+  255  sed 's/!/$/g' sed_test
+  256  cat sed_test
+  257  sed '/simple/d' sed_test
+  258  cat sed_test
+  259  sed '/Hi/a Welcome to sed' sed_test
+  260  sed -n '/Hi/p' sed_test
+  261  clear
+  262  nano employees.txt
+  263  cat employees.txt
+  264  awk '{print $0}' employees.txt
+  265  awk '{print $1, $3}' employees.txt
+  266  awk $3>50000 '{print $1, $3}' employees.txt
+  267  awk '$3 > 50000 {print $1, $3}' employees.txt
+  268  awk 'BEGIN {print "Name: Salary: "} {print $1, $3}' employees.txt
+  269  awk 'BEGIN {print "Name Age Salary "} {print $1, $3}' employees.txt
+  270  awk '{total += $3} END {print "Total Salary = ", total}' employees.txt
+  271  clear
+  272  awk '{print $0}' employees.txt
+  273  awk '{print NR, $1}' employees.txt
+  274  awk '{print NR, $0}' employees.txt
+  275  awk '/Alice' employees.txt
+  276  awk '/Alice/' employees.txt
+  277  awk '$2 < 30 {print $1, $2}' employees.txt
+  278  awk '{printf "Name: %s, Age: %d, Salary: %d\n", $1, $2, %3}' employees.txt
+  279  awk '{printf "Name: %s, Age: %d, Salary: %d\n", $1, $2, $3}' employees.txt
+  280  awk 'END {print "Total employees = ", NR}' employees.txt
+  281  clear
+  282  ls -l
+  283  ls -l s1.txt
+  284  chmod u+x s1.txt
+  285  ls -l s1.txt
+  286  chmod o-r s1.txt
+  287  ls -l s1.txt
+  288  chmod 462 s1.txt
+  289  ls -l s1.txt
+  290  history
