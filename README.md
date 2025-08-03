@@ -11,3 +11,7 @@ Git Training course completion certificate from Simplilearn:
 Introduction to C for Beginners Sololearn Course Completion Certificate:
 
 ![IntroductionToCSololearnSriramN](C/SololearnCourseCertificates/IntroductionToCSololearnSriramN.jpg "Introduction to C Certificate from Sololearn")
+
+C Intermediate Sololearn Course Completion Certificate:
+
+![CIntermediateSololearnSriramN](C/SololearnCourseCertificates/IntermediateCSololearnSriramN.jpg "C Intermediate Certificate from Sololearn")
