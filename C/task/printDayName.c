@@ -41,4 +41,7 @@ int main () {
             flag = 1;
         }
     } while (flag == 1); // It repeats the loop until the value is between 1 to 7 ie., the flag is set to 0. If the number is out of range, then the flag is set to 1 & it repeat the looping cycle.
+    
+    return 0;
+    
 }
